@@ -1,0 +1,27 @@
+public class test {
+	public static void main(String[]args){
+		String a="您现在查阅的是2019年8月日历\n";
+		String b="日\t一\t二\t三\t四\t五\t六\n\n";
+		String c="\t\t\t\t1\t2\t3\n\n";
+		String d="4\t5\t6\t7\t8\t9\t10\n\n";
+		String e="11\t12\t13\t14\t15\t16\t17\n\n";
+		String f="18\t19\t20\t21\t22\t23\t24\n\n";
+		String g="25\t26\t27\t28\t29\t30\t31\n\n";
+		int days=31;
+		int week=days/7;
+		int day01=days%7;
+		System.out.print("hell祁宏!\t");
+		System.out.println(a);
+		System.out.print(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+		System.out.print("周数目\t");
+		System.out.println(week);
+		System.out.print("剩余天数\t");
+		System.out.print(day01);
+						
+	}
+}
